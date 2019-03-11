@@ -1,0 +1,30 @@
+body{
+    text-align: center;    
+    font-family: fantasy;
+    background-color: rgb(218, 232, 236)
+}
+
+table{
+    border: 2mm;
+    border-color: black;
+    border-style: groove;
+}
+
+#td2{
+    border-top-style: groove;
+}
+
+.p2{
+    background-color: rgb(157, 196, 247);
+    
+}
+.p1{
+    background-color: rgb(155, 223, 241);
+}
+
+#tdMCN{
+    border-right-style: groove;
+}
+td:hover{
+    color: red;
+}

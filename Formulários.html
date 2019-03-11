@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tabelas</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="nome">
+            Qual o seu nome?
+            </label>
+            <!-- Início do Input Nome-->
+            <input 
+                type="text" 
+                name="nome" 
+                id="nome" 
+                size="20" 
+                maxlength="10" 
+                placeholder="Nome..."
+                />
+            <!-- Fim do Input Nome-->
+            <br />
+            <label for="senha">
+            Qual a sua senha?
+            </label>
+            <!-- Início do Input Senha-->
+            <input 
+                type="password" 
+                name="senha" 
+                id="senha"
+                value="abc" 
+                size="8" 
+                maxlength="8" 
+                placeholder="Senha..."
+                />
+            <br />
+            <!-- Fim do Input Senha-->
+            Você concorda com a Pena de Morte?
+            <br />
+            <!-- Início do Input CHECKBOX-->
+            <label for="concordo">
+                    <input 
+                    type="checkbox"
+                    name="concorda"
+                    id="concordo"
+                    value="concorda"
+                    />Concordo
+            <br />
+            </label>
+            <label for="discordo">
+                    <input 
+                    type="checkbox"
+                    name="discorda"
+                    value="discorda"
+                    id="discordo"
+                    checked
+                    />Não Concordo
+            <br />
+            </label>
+            <!-- Fim do Input CHECKBOX-->
+            Qual seu sexo?<br />
+            <!-- Início do Input RADIO-->
+            <label for="masc">
+                <input 
+                    type="radio"
+                    name="sexo"
+                    id="masc"
+                    value="masc"
+                />Masculino
+            </label>
+            <br />
+            <label for="fem">
+                <input 
+                    type="radio"
+                    name="sexo"
+                    id="fem"
+                    value="fem"
+                    checked
+                />Feminino
+            </label>
+            <!-- Fim do Input RADIO-->
+            <br />
+            <!-- Início do Input BUTTON-->
+            <button type="submit">
+                Vai!
+            </button>
+            <!-- Fim do Input BUTTON-->
+            <br />
+            <!-- Início do Input TEXTAREA-->
+            <textarea 
+                name="descricao" 
+                id="descricao" 
+                cols="30" 
+                rows="10"
+                placeholder="Aqui sua descrição..."></textarea>
+            <!-- Fim do Input TEXTAREA-->
+            <br />
+            <!-- Início do Input SELECT-->
+            <label for="cidades">Cidades:</label>
+            <select name="cidades" id="cidades" size="1">
+                <option disabled selected>Selecione uma Cidade</option>
+                <optgroup label="Rio Grande do Norte">
+                    <option value="ntl">Natal</option>
+                    <option value="par">Parnamirim</option>
+                    <option value="sga">São Gonçalo do Amarante</option>
+                </optgroup>
+                <optgroup label="Paraíba">
+                    <option value="jpa">João Pessoa</option>
+                    <option value="cgd">Campina Grande</option>
+                </optgroup>
+            </select>
+            <!-- Fim do Input SELECT-->
+
+            <label for="cor">Escolha a cor</label>
+            <input type="color" name="cor" id="cor">
+            <hr>
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" name="nascimento" id="nascimento">
+            <hr>
+            <label for="evento">Data e Hora do Evento:</label>
+            <input type="datetime-local" name="evento" id="evento">
+            <hr>
+            <label for="mes-evento">Mês do Evento</label>
+            <input type="month" name="mes-evento" id="mes-evento">
+            <hr>
+            <label for="email">Seu E-mail</label>
+            <input type="email" name="email" id="email">
+            <hr>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" name="quantidade" id="quantidade" 
+            min="0" max="50" step="2" value="0">
+            <hr>
+            <label for="avaliacao">Avaliação do Site</label>
+            <input type="range" name="avaliacao" id="avaliacao" 
+            min="0" max="5" value="0">
+            <hr>
+            <label for="procurar">Procurar no Site</label>
+            <input type="search" name="procurar" id="procurar">
+            <hr>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </body>
+</html>

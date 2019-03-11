@@ -1,0 +1,22 @@
+h2 {
+    color: red; /* Cor do texto */
+    background-color: chartreuse; /* Cor do fundo */
+    text-decoration: darkslateblue underline; /* Sublinhado e cor de linha */
+    text-decoration-style: double; /* Duas Linhas */
+    text-align: center /* Alinhamento de Texto */
+}
+
+p {
+    color: deeppink;
+    font-style: italic;
+    text-align: right;
+    font-family: 'century';
+    background-color: brown;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 2px;
+}
+
+body {
+        background-color: aqua
+}

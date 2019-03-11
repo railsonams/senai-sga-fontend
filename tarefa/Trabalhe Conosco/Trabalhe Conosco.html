@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalhe Conosco!</title>
+</head>
+<body background="trabalheConosco.gif"> 
+    <center>
+    <table border="2">
+        <tr align="center" style="background-color: whitesmoke">
+            <td>
+                <h3>Super Ficha do Candidato</h3>
+            </td>
+        </tr>
+        <tr align="center" style="background-color: whitesmoke">
+            <td><img src="heroi.gif" alt=""></td>
+        </tr>
+        <tr align="center" style="background-color: whitesmoke">
+            <td>
+            <form action="" method="post">
+                    <label for="nome">
+                        Qual é o seu nome?<br /><br />
+                    </label>
+                        <input 
+                            type="text" 
+                            name="nome" 
+                            id="nome" 
+                            size="20" 
+                            maxlength="10" 
+                            placeholder="Nome..."
+                            />
+                    <br />
+                    <hr>
+                    <br />
+                    <label for="nascimento">Qual é a sua Data de Nascimento?</label>
+                    <br />
+                    <br />
+                    <input type="date" name="nascimento" id="nascimento">
+                    <br />
+                    <hr>
+                    <br />
+                    <label for="email">Informe o seu E-mail para contato: </label>
+                    <br />
+                    <input type="email" name="email" id="email">
+                    <br />
+                    <hr>
+                    <br />
+                    Quais são seus dias Disponíveis para trabalhar conosco?<br /><br />
+                    <label for="segunda">
+                        <input 
+                            type="checkbox"
+                            name="segunda"
+                            id="segunda"
+                            value="segunda"
+                        />Segunda
+                    <br />
+                    </label>
+                    <label for="terca">
+                        <input 
+                            type="checkbox"
+                            name="terca"
+                            value="terca"
+                            id="terca"
+                        />Terça
+                    <br />
+                    </label>
+                    <label for="quarta">
+                        <input 
+                            type="checkbox"
+                            name="quarta"
+                            id="quarta"
+                            value="quarta"
+                        />Quarta
+                    <br />
+                    </label>
+                    <label for="quinta">
+                        <input 
+                            type="checkbox"
+                            name="quinta"
+                            value="quinta"
+                            id="quinta"
+                        />Quinta
+                    <br />
+                    </label>
+                    <label for="sexta">
+                        <input 
+                            type="checkbox"
+                            name="sexta"
+                            id="sexta"
+                            value="sexta"
+                        />Sexta
+                    <br />
+                    </label>
+                    <label for="sabado">
+                        <input 
+                            type="checkbox"
+                            name="sabado"
+                            value="sabado"
+                            id="sabado"
+                        />Sábado
+                    <br />
+                    </label>
+                    <label for="domingo">
+                        <input 
+                            type="checkbox"
+                            name="domingo"
+                            value="domingo"
+                            id="domingo"
+                        />Domingo
+                    </label>
+                    <br />
+                    <hr>
+                    <br />        
+                    Qual(is) o(s) turno(s) disponível(is)?<br /><br />
+                    <label for="matutino">
+                        <input 
+                            type="checkbox"
+                            name="matutino"
+                            id="matutino"
+                            value="matutino"
+                        />Matutino
+                    <br />
+                    </label>                        
+                    <label for="vespertino">
+                        <input 
+                            type="checkbox"
+                            name="vespertino"
+                            id="vespertino"
+                            value="vespertino"
+                        />Vespertino
+                    <br />
+                    </label>   
+                    <label for="noturno">
+                        <input 
+                            type="checkbox"
+                            name="noturno"
+                            id="noturno"
+                            value="noturno"
+                        />Noturno
+                    <br />
+                    </label> 
+                    <br />
+                    <hr>
+                    <br />
+                    Qual o horário preferencial?<br /><br />
+                    <label for="matutinoh">
+                        <input 
+                            type="radio"
+                            name="horario"
+                            id="matutinoh"
+                            value="matutinoh"
+                        />Matutino
+                    </label>
+                    <br />
+                    <label for="vespertinoh">
+                        <input 
+                            type="radio"
+                            name="horario"
+                            id="vespertinoh"
+                            value="vespertinoh"
+                        />Vespertino
+                    </label>
+                    <br />
+                    <label for="noturnoh">
+                        <input 
+                            type="radio"
+                            name="horario"
+                            id="noturnoh"
+                            value="noturnoh"
+                        />Noturno
+                    </label>
+                    <br />
+                    <hr>
+                    <br />
+                    <label for="horarioentrada">Informe o horário mínimo que deseja começar a trabalhar:</label>
+                    <br /><br />
+                    <input type="time" name="horarioentrada" id="horarioentrada">
+                    <br />
+                    <hr>
+                    <br />
+                    <label for="horariosaida">Informe o horário máximo em que deseja sair do trabalho:</label>
+                    <br /><br />
+                    <input type="time" name="horariosaida" id="horariosaida">
+                    <br />
+                    <hr>
+                    <br />
+                    Qual seu Sexo?<br /><br />
+                    <label for="masc">
+                        <input 
+                            type="radio"
+                            name="sexo"
+                            id="masc"
+                            value="masc"
+                        />Masculino
+                    </label>
+                    <br /><br />
+                    <label for="fem">
+                        <input 
+                            type="radio"
+                            name="sexo"
+                            id="fem"
+                            value="fem"
+                        />Feminino
+                    </label>
+                    <br />
+                    <hr>
+                    <br />
+                    <label for="vaga">A qual vaga deseja se Candidatar?</label>
+                    <br /><br />
+                    <select name="vaga" id="vaga" size="1">
+                        <option disabled selected>Selecione um(a) Vaga</option>
+                        <option value="vaga1">Vaga 1</option>
+                        <option value="vaga2">Vaga 2</option>
+                        <option value="vaga3">Vaga 3</option>
+                    </select>   
+                    <br />
+                    <hr>
+                    <br />
+                    <label for="cor">Qual é a cor que você gostaria utilizar na farda?</label>
+                    <br /><br />
+                    <input type="color" name="cor" id="cor">
+                    <br />
+                    <hr>
+                    <br />
+                    <label for="descricao">Comente o motivo que o faz o mais indicado a vaga:</label>
+                    <br /><br />
+                    <textarea 
+                        name="descricao" 
+                        id="descricao" 
+                        cols="30" 
+                        rows="10"
+                        placeholder="Aqui sua descrição..."
+                    ></textarea>
+                    <br />
+                    <hr>
+                    <br />
+                    <label for="senha">Qual a sua senha?</label>
+                    <br /><br />
+                        <input 
+                            type="password" 
+                            name="senha" 
+                            id="senha"
+                            value="" 
+                            size="8" 
+                            maxlength="8" 
+                            placeholder="Senha..."
+                        />
+                    <br />
+                    <hr>
+                    <br />
+                    <button type="submit">
+                        Enviar
+                    </button>
+            </form>
+        </td>
+    </tr>
+    </table>
+    </center>
+</body>
+</html>

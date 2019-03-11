@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#div2{
+background-color: pink;
+width: 500px;
+    height: 900px;
+}
+#div4{
+    background-color: cornsilk;
+    width: 10px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+#div3{
+    background-color: blueviolet;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

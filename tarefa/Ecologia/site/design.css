@@ -1,0 +1,30 @@
+.t1{
+   color: darkgreen
+}
+#img{
+    align-items: right;
+    align-self: right;  
+}
+body{
+    margin-top: 125px;
+    text-align: center; 
+    background-color: aliceblue;
+}
+#divlogo{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#imgTOP{
+    position: absolute;
+    top: 5px;
+}
+
+#link1{
+    position: absolute;
+    left: 5px;
+    top: 100px;
+}
+#tabD{
+    text-align: justify;
+}

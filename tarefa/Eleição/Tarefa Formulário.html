@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Eleição Estudantil</title>
+    </head>
+    <body background="2.gif">
+        <center>
+            <table style="background-color: whitesmoke">
+                <tr align="center">
+                    <td><h3>Formulário de Eleição Estudantil</h3></td>
+                </tr>
+                <tr>
+                    <td><img src="1.gif"></td>
+                </tr>
+                <tr align="center">
+                    <td>
+                <form>
+                <label for="nome">
+                Qual o seu nome?<br /><br />
+                </label>
+                    <input 
+                        type="text" 
+                        name="nome" 
+                        id="nome" 
+                        size="20" 
+                        maxlength="10" 
+                        placeholder="Nome..."
+                    />
+                    <br />
+                    <hr>
+                    <br />
+                Você vai em quais dias ao Curso?<br /><br />
+                <label for="segunda">
+                    <input 
+                        type="checkbox"
+                        name="segunda"
+                        id="segunda"
+                        value="segunda"
+                    />Segunda
+                <br />
+                </label>
+                <label for="terca">
+                    <input 
+                        type="checkbox"
+                        name="terca"
+                        value="terca"
+                        id="terca"
+                    />Terça
+                <br />
+                </label>
+                <label for="quarta">
+                        <input 
+                            type="checkbox"
+                            name="quarta"
+                            id="quarta"
+                            value="quarta"
+                        />Quarta
+                    <br />
+                    </label>
+                    <label for="quinta">
+                        <input 
+                            type="checkbox"
+                            name="quinta"
+                            value="quinta"
+                            id="quinta"
+                        />Quinta
+                    <br />
+                    </label>
+                    <label for="sexta">
+                    <input 
+                        type="checkbox"
+                        name="sexta"
+                        id="sexta"
+                        value="sexta"
+                    />Sexta
+                <br />
+                </label>
+                <label for="sabado">
+                    <input 
+                        type="checkbox"
+                        name="sabado"
+                        value="sabado"
+                        id="sabado"
+                    />Sábado
+                <br />
+                </label>
+                <label for="domingo">
+                    <input 
+                        type="checkbox"
+                        name="domingo"
+                        value="domingo"
+                        id="domingo"
+                    />Domingo
+                </label>
+                <br />
+                <hr>
+                <br />            
+                Qual seu Sexo?<br /><br />
+                <label for="masc">
+                    <input 
+                        type="radio"
+                        name="sexo"
+                        id="masc"
+                        value="masc"
+                    />Masculino
+                </label>
+                <br />
+                <label for="fem">
+                    <input 
+                        type="radio"
+                        name="sexo"
+                        id="fem"
+                        value="fem"
+                        checked
+                    />Feminino
+                </label>
+                <br />
+                <hr>
+                <br />            
+                <label for="aluno">Alunos:</label>
+                <select name="aluno" id="aluno" size="1">
+                    <option disabled selected>Selecione um(a) Aluno(a)</option>
+                    <option value="aluno1">Aluno 1</option>
+                    <option value="aluno2">Aluno 2</option>
+                    <option value="aluno3">Aluno 3</option>
+                </select>
+                <br />
+                <hr>
+                <br />            
+                <label for="vaga">Vaga:</label>
+                <select name="vaga" id="vaga" size="1">
+                    <option disabled selected>Selecione um(a) Vaga ao Aluno(a) Selecionado(a)</option>
+                    <option value="vaga1">Vaga 1</option>
+                    <option value="vaga2">Vaga 2</option>
+                    <option value="vaga3">Vaga 3</option>
+                </select>
+                <br />
+                <hr>
+                <br />            
+                Qual o Motivo de Votar nessa Pessoa para essa Vaga?<br />
+                <textarea 
+                    name="descricao" 
+                    id="descricao" 
+                    cols="30" 
+                    rows="10"
+                    placeholder="Aqui sua descrição..."
+                ></textarea>
+                <br />
+                <hr>
+                <br />              
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </td>
+    </tr>
+    </table>
+    </center>
+    </body>
+</html>
