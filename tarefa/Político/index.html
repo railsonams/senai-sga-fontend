@@ -4,37 +4,76 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="../../bootstrap-3.3.7-dist/css/bootstrap.css">
 </head>
 <body>
     <!--
         O site deve conter o nome do político,
         partido, informações, fotos e notícias
     -->
-    <div id="pagina">
-        <div id="cabecalho">Vereador Fulano</div>
-
-        <div id="menusuperior">
-            <table border="1">
-                <tr>
-                    <td>
-                        <a href="partido" title="Informações do PQC" style="color: antiquewhite">PQC</a>
-                    </td>
-                    <td>
-                        <a href="informacao" title="Informações do Plano de Governo" style="color: antiquewhite">Plano de Governo</a>
-                    </td>
-                    <td>
-                        <a href="noticia" title="Notícias do Vereador Fulano" style="color: antiquewhite">Fotos e Notícias</a>
-                    </td>
-                </tr>
-            </table>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>
+                    PdE - Partido dos Enroladores
+                </h3>
+                <div class="row">
+                    <div id="teste" class="col-md-2">
+                         <span class="badge badge-default">Falcrácrio Mentirus</span><img alt="Bootstrap Image Preview" src="imagem/foto.jpg" width="250" height="250" />
+                    </div>
+                    <div class="col-md-6" id="teste2">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="text-center">
+                                    Dados Pessoais
+                                    <br />
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                Nome
+                                            </td>
+                                            <td>
+                                                Falcrácrio Mentirus da Lorota Bizarra
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Nº / Partido
+                                            </td>
+                                            <td>
+                                                342 / Partido dos Enroladores
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Cargo
+                                            </td>
+                                            <td>
+                                                Senador
+                                            </td>
+                                        </tr>
+                                            <td>
+                                                Situação
+                                            </td>
+                                            <td>
+                                                Hâpitú
+                                            </td>
+                                        <tr>
+                                            <td>
+                                                Data de Nascimento
+                                            </td>
+                                            <td>
+                                                01/04/1986
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="menulateral">
-            Link1 <br> Link2
-        </div>
-        <div id="conteudo">
-            Texto
-        </div>
-        <div id="rodape">Telefone: 2222-2222</div>
     </div>
 </body>
 </html>
